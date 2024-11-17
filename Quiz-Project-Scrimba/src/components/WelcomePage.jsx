@@ -10,25 +10,7 @@ export default function WelcomePage(props) {
         <div>
             <div>
                 <label for="category">Choose a Category:</label>
-                <select id="category" name="category">
-                    <option value="General Knowledge">General Knowledge</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                    <option value="">value</option>
-                </select>
+                <input />
             </div>
             <button onClick={props.startGame}>Start Game</button>
         </div>
